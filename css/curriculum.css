@@ -1,3 +1,116 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	background-image: url("../311-07-blue-purple-grunge-neon.jpg");
+	background-size: 1920px;
+	background-attachment: fixed;
+	
+}
 
+menu{
+	text-align: center;
+	position: fixed;
+	width: 700px;
+	border-top: solid 5px #EDDA59;
+	border-bottom: solid 5px #EDDA59;
+	border-left: solid 5px #EDDA59;
+	border-right: solid 5px #EDDA59;
+	background-color:#6DD0D8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -60px;
+	margin-left: 620px;
+	margin-right: 500px;
+	margin-bottom: -50px;	
+}
+menu a{
+	text-decoration: none;
+	color: black;
+	margin-left: 5px;
+	
+	font-size: 20px;
+	font-weight: 200;
+}
+
+
+.informacion{
+	width: 1800px;
+	height: 500px;
+	border: solid #EDDA59;
+	margin-bottom: 100px;
+	padding-bottom: 0px;
+	background-color:#6DD0D8;
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.informacion p{
+	position: relative;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	margin-left: 500px;
+	margin-top: -100px;
+}
+
+
+h2{
+	text-align: center;
+}
+
+.estudios{
+	border: solid #EDDA59;
+	text-align: left;
+	background-color:#6DD0D8;
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.estudios p{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.diplomas{
+	border: solid #EDDA59;
+	text-align: left;
+	background-color:#6DD0D8;
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.diplomas p{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.diplomas p{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.hobbies{
+	border: solid #EDDA59;
+	text-align: left;
+	background-color:#6DD0D8;
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.hobbies p{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.habilidades{
+	border: solid #EDDA59;
+	text-align: left;
+	background-color:#6DD0D8;
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.habilidades p{
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
