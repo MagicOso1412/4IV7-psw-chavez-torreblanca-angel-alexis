@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    font-family: Arial, Helvetica, sans-serif;/*Fuente de la pag*/
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #142b3b;
+    margin: 0;
+}
+.barra{
+    width: 100%;
+    line-height: 220%;
+    text-align:center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra1{
+    width: 20%;
+    background-color: #932123;
+}
+.barra2 :hover{
+    background-color:#7ADFF0;
+}
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    vertical-align: middle;
+}
+div{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+section{
+    width: 48%;
+    padding-left: 2%;
+}
+
+@media(max-width:600px){
+    .barra{
+        font-size: .7rem;
+    }
+
+    section{
+        padding: 0%;
+        width: 100%;
+        text-align: center;
+    }
+}
+.foot{
+    background-color: #5EBDB2;
+    padding: 2rem 0px;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    color: #F5EBDC;
+}
+
+.pie{
+    color: #F5EBDC;
+}
+img{
+    border-radius: 1rem;
+}
+.imagen{
+    text-align: center;
+}
+video{
+    border-radius: 1rem;
+}
+.hobbiesgeneral{
+    width: 76%;
+    background-color: #e42d40;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+.cuadrado{
+    width: 100%;
+    padding-left: 11%;
+    padding-right: 11%;
+    text-align: justify;
+}
+.anime{
+    padding: 0;
+    width: 36%;
+    background-color: #41ad52;
+}
+.espacio{
+    width: 2%;
+}
+@media(max-width:600px){
+    .aspect_ratio{
+        height: 13rem;
+    }
+    .aspect_ratio2{
+        height: 10rem;
+    }
+    .aspect_ratio3{
+        height: 19rem;
+    }
+    .aspect_ratio4{
+        height: 7rem;
+    }
+    .espacio{
+        width: 100%;
+        height: 1rem;
+    }
+    .anime{
+        padding: 0%;
+        width: 78%;
+    }
+    .hobbiesgeneral{
+        width: 78%;
+    }
+}
