@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columna1 {
+    width: 100%;
+}
+
+@media (min-widht: 600px){
+    .columna1{
+        padding: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-widht: 800px) {
+    .columna1{
+        padding: 40px;
+        font-size: 2em;
+    }
+}
+
+@keyframes animacion_test{
+    from{
+        background-color:#941719;
+    }
+    to{
+        background-color: #425AE5;
+    }
+}
+
+
+nav{
+    background-color: #6AF7E3;
+    font-size: 28px;
+    text-align: right;
+    border: 0.5px solid black;
+}
+
+section, footer{
+    background-color: #9F54D8;
+    text-align: left;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+p{
+    font-size: 20em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li{
+    font-size: 23px;
+}
+
+a{
+    text-decoration: dashed;
+    color: black;
+    display: inline-block;
+position: relative;
+color: #000;
+text-decoration: none;
+padding: 0 4px;
+}
+
+
+body{
+    background-color: #941719;
+
+    animation: animacion_test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
