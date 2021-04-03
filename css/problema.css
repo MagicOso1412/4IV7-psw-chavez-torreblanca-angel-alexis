@@ -29,6 +29,7 @@ h1{
 
 a{
     background-color:aquamarine ;
+	animation: animacion_boton;
     text-decoration: dashed ;
     padding: 5px;
     border-radius: 10px;
@@ -75,4 +76,9 @@ body{
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
+.botonregreso{
+	position: fixed;
+	margin-left: 50%;
+	margin-top: 20%;
 }
